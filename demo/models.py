@@ -39,5 +39,5 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher)
     #书和作者的关系：多对多
     author = models.ManyToManyField(Author)
-    def __unicode__(self):
-        return self.title
+
+
